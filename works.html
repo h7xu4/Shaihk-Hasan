@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>أعمالي - الشيخ حسن</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .works-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .work-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .work-card:hover {
+      transform: scale(1.05);
+    }
+
+    .work-card img {
+      width: 100%;
+      height: 180px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .work-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .work-desc {
+      font-size: 0.95em;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>أعمالي ومشاريعي</h1>
+
+  <div class="works-gallery">
+    <div class="work-card">
+      <img src="https://i.imgur.com/QspAn8K.png" alt="تصميم موقع شخصي">
+      <div class="work-title">موقع شخصي احترافي</div>
+      <div class="work-desc">تصميم صفحة تعريفية باستخدام HTML وCSS بتصميم عصري ومتجاوب.</div>
+    </div>
+    <div class="work-card">
+      <img src="https://i.imgur.com/j6lBEeF.png" alt="لوحة تحكم متجر إلكتروني">
+      <div class="work-title">لوحة تحكم متجر</div>
+      <div class="work-desc">تطوير نظام إدارة محتوى للمنتجات والمبيعات بواجهة سهلة الاستخدام.</div>
+    </div>
+    <div class="work-card">
+      <img src="https://i.imgur.com/G7e1uvL.png" alt="صفحة هبوط">
+      <div class="work-title">صفحة هبوط تسويقية</div>
+      <div class="work-desc">صفحة موجهة لعرض خدمة أو منتج بإبداع بصري ونداء واضح لاتخاذ إجراء.</div>
+    </div>
+    <div class="work-card">
+      <img src="https://i.imgur.com/mEXN2Id.png" alt="تطبيق تقني">
+      <div class="work-title">تطبيق موبايل</div>
+      <div class="work-desc">تطبيق بسيط للخدمات التقنية يدعم واجهة مستخدم جذابة وتجربة استخدام سهلة.</div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a href="index.html" class="btn">العودة للرئيسية</a>
+  </div>
+</body>
+</html>
